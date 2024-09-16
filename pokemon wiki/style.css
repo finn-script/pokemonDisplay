@@ -1,0 +1,19 @@
+.pokemonlist {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 100px);
+    text-align: center;
+    line-height: 10%;
+}
+
+.pokemonlist {
+    background-color: transparent;
+}
+
+.pokemonlist :first-letter {
+    text-transform: capitalize;
+}
+
+body {
+    background: linear-gradient(to right, #ffee8c, #800080)
+}
